@@ -1,17 +1,5 @@
 {
   "hosting": {
-    "site": "chats-mk",
-    "public": "out",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ],
-    "rewrites": [
-      {
-        "source": "**",
-        "destination": "/index.html"
-      }
-    ]
+    "site": "chats-mk"
   }
 }
