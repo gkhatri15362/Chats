@@ -1,10 +1,10 @@
-// app/chat/layout.tsx
+'use client';
+import { AuthProvider } from '@/contexts/AuthContext'; // make sure path sahi ho
 
 export default function ChatLayout({ children }: { children: React.ReactNode }) {
   return (
-    <div>
-      {/* Yahan aap nav bar, header ya sidebar bhi daal sakte ho */}
+    <AuthProvider>
       {children}
-    </div>
+    </AuthProvider>
   );
 }
